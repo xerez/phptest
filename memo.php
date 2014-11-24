@@ -29,8 +29,8 @@ Class Memo{
   }
 
 }
-/**
+/***
 $memo = new Memo();
 $filelink = $memo -> getLinkFileList("data");
 var_dump($filelink);
-**/
+***/
