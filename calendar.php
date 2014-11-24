@@ -141,7 +141,6 @@ function getCalendar($year, $month, $day, $events, $memodir) {
 }
 }
 
-
 /*
 $nowYear = date("Y");
 $date1 = date("Y-m-d", strtotime("{$nowYear}0101"));
