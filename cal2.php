@@ -31,7 +31,7 @@ $date1 = date("Y-m-d", strtotime("{$year}0101"));
 $date2 = date("Y-m-d", strtotime("{$year}1231"));
 $holidays = Calendar::getJpHoliday($date1,$date2);
 
-$today = array('label' => 'today', date('Ymd') => '今日も一日がんばるぞい');
+$today = array('label' => 'today', date('Ymd') => 'TODAY!!');
 
 $events = array($holidays, $today);
 
