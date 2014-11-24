@@ -31,4 +31,4 @@ function primenum($maxnum){
 	return $list;
 }
 
-var_dump(primenum(10000));
+//var_dump(primenum(10000));
